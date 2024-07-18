@@ -1,0 +1,38 @@
+package vintage.utils;
+
+public enum ErrorCode {
+    // Loja
+    NO_ERRORS,
+    PARAMETRO_ERRADO,
+    CODIGO_INVALIDO,
+    DATA_INVALIDA,
+    DATA_PASSADA,
+
+    // Artigos
+    ARTIGO_EXPEDIDO,
+    DIMENSOES_INVALIDAS,
+
+    // Utilizadores,
+    UTILIZADOR_INATIVO,
+    EMAIL_INVALIDO,
+    NIF_INVALIDO,
+
+    // Encomendas
+    SEM_ESPACO,
+    ENCOMENDA_VAZIA,
+    EM_ENCOMENDA,
+    EM_EXPEDICAO,
+    SEM_REEMBOLSO,
+    ARTIGO_DO_COMPRADOR,
+    ARTIGO_INVALIDO,
+
+    // Transportadoras
+    TRANSPORTADORA_INVALIDA,
+    TRANSPORTADORA_NAO_PREMIUM,
+    PREMIUM_REQUIRED,
+    TRANSPORTADORA_EM_USO,
+
+    // Runner
+    AUTORUN_SUCCESS,
+    AUTORUN_ERROR,
+}
